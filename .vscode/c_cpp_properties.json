@@ -6,7 +6,7 @@
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "compilerPath": "E:/Software/MinGW/bin/g++.exe",
+            "compilerPath": "E:/Software/MinGW/bin/gcc.exe",
             "cppStandard": "c++14",
             "intelliSenseMode": "gcc-x64",
             "compileCommands": "${workspaceFolder}/build/compile_commands.json"

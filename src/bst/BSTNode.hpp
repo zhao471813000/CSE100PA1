@@ -37,9 +37,7 @@ class BSTNode {
           }
         return nullptr;
       }
-        
-
-      return 0; }
+    }
 };
 
 /** DO NOT CHANGE THIS METHOD
