@@ -24,9 +24,9 @@ TEST(BST_NODE_TESTS, TEST_SUCCESSOR_CASE1) {
     BSTNode<int> node4(2);
     BSTNode<int> node5(6);
     BSTNode<int> node6(5);
-    BSTNode<int> node7(7); 
+    BSTNode<int> node7(7);
     BSTNode<int> node8(4);
-    
+
     node0.left = &node1;
     node1.left = &node2;
     node5.left = &node6;
@@ -48,5 +48,5 @@ TEST(BST_NODE_TESTS, TEST_SUCCESSOR_CASE1) {
 
     ASSERT_EQ(node0.successor(), &node8);
     ASSERT_EQ(node4.successor(), &node0);
-    ASSERT_EQ(node8.successor(), nullptr);
+    ASSERT_EQ(node7.successor(), nullptr);
 }
